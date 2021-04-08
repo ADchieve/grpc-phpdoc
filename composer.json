@@ -1,0 +1,22 @@
+{
+  "name": "adchieve/grpc-stub",
+  "description": "Stub for the entire GRPC namespace. Can for example be used for static code analysis without installing the entire php-grpc plugin.",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Hans Goedegebuure",
+      "email": "hans.goedegebuure@adchieve.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": [ "bootstrap.php" ]
+  },
+  "suggest": {
+    "ext-intl": "For best performance and support of other locales than \"en\""
+  }
+}
